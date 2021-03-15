@@ -1,0 +1,108 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@dragoon000320 
+dragoon000320
+/
+TarsosDSP
+forked from JorenSix/TarsosDSP
+0
+1396
+Code
+Pull requests
+Actions
+Projects
+Security
+Insights
+Settings
+TarsosDSP/.gitignore
+@dragoon000320
+dragoon000320 1.0 - used 2.4 version of JorenSix/TarsosDSP,
+…
+Latest commit 8b73b1d on Sep 19, 2020
+ History
+ 3 contributors
+@rikkimongoose@JorenSix@dragoon000320
+64 lines (53 sloc)  683 Bytes
+  
+#################
+## Eclipse
+#################
+*.pydevproject
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+############
+## Windows
+############
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+############
+## Binaries
+############
+
+doc/
+build/*.jar
+prepender.rb
+*_prefix.txt
+build/tarsosdsp-*
+!build/tarsosdsp-1.0.pom
+decoder_log*
+
+###########
+# Maven
+###########
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.iws
+.DS_Store
+log/
+target/
+
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
